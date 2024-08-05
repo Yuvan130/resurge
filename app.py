@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Authenticate with Hugging Face
-login(token="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")
+login(token="Hugging face token")
 
 # Load the Hugging Face model and tokenizer
 model_name = "openai-community/gpt2"
